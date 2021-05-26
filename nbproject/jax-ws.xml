@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="consultClients">
+      <implementation-class>clients.consultClients</implementation-class>
+    </service>
+    <service name="consultVideogames">
+      <implementation-class>videogames.consultVideogames</implementation-class>
+    </service>
+    <service name="consultVideogamesInventory">
+      <implementation-class>videogamesInventory.consultVideogamesInventory</implementation-class>
+    </service>
+    <service name="consultVideogamesRental">
+      <implementation-class>videogamesRental.consultVideogamesRental</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
